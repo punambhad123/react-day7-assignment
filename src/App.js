@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Main from './component/Web';
+import TextAreawithLimit from './Assignment2/Text';
+import Signup from './Assignment3/Signup';
+import Signin from './Assignment3/Signin';
+import  './Assignment2/New1.css';
+import  './Assignment3/New.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Main/>
+    <TextAreawithLimit/>
+    <Signup/>
+    <Signin/>
+    </>
+
+    
   );
 }
 

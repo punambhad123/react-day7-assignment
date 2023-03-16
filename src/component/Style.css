@@ -1,0 +1,39 @@
+.page{
+    background-color: black;
+}
+
+.left{
+    background-color: antiquewhite;
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.right{
+    background-color: skyblue(22, 135, 155);
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.btn{
+    background-color: black;
+    size: 100px;
+    color: azure;
+    position: absolute;
+    bottom: 25%;
+    box-shadow: 1px 2px 1px 2px;
+    top: 25%;
+    align-items: center;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    height: fit-content
+}
+.h1{
+    background-color: black;
+}
+
